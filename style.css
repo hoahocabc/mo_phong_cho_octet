@@ -1,0 +1,32 @@
+:root{
+  --bg:#000000;
+  --panel-bg: rgba(255,255,255,0.02);
+  --font: "Arial", Helvetica, sans-serif;
+}
+
+html,body{
+  height:100%;
+  margin:0;
+  background:var(--bg);
+  font-family: var(--font);
+  color: #fff;
+}
+
+#app{
+  height:100vh;
+  width:100vw;
+  position:relative;
+  overflow:hidden;
+}
+
+#canvasContainer{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  background: var(--bg);
+  z-index: 1;
+}
+
+/* Nhãn đã bị loại bỏ — không còn style cho atom-label hoặc region-label */
